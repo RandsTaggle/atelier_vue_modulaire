@@ -9,6 +9,29 @@
 	<title>Atelier Vue Modulaire</title>
 </head>
 <body>
+	<header>
+		<nav>
+			<div class="nav-wrapper green">
+				<a href="#" class="brand-logo yellow-text">WCS</a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="sass.html">Sass</a></li>
+					<li><a href="badges.html">Components</a></li>
+					<li><a href="collapsible.html">JavaScript</a></li>
+				<ul>
+			</div>
+		</nav>
+	</header>
+
+	<div class = "container">
+		<div class="row">
+			<div class="col s12 m6 center">
+				<p class="red-text">Hello World!</p>
+			</div>			
+			<div class="col s12 m6 center">
+				<p class="green-text">Hello WCS!</p>
+			</div>
+	</div>
+	</div>
 	
 	<!-- JQuery -->
 	<script
